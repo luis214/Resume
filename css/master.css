@@ -1,22 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 html, body{
   background-image: url("../img/page-bg.jpg");
-  height: 100%; width: 100%;
+  height: 100%;
   font-family: 'Bree Serif', serif;
 
+
 }
-.navbar {
-  margin: auto;
-  width: 970px;
-  height: 110px;
+.header {
   border-radius: 0;
   border: 0;
-}
-.container {
+  width: 51%;
+  height:13%;
   margin: auto;
-  width: 970px;
-  height: 700px;
+  background-color: rgb(34, 34, 34);
+  margin-top: -1%
+}
+.con {
+  margin: auto;
+  width: 51%;
+  height: 75%;
   background-image: url("../img/body-bg.png");
+  margin-top: -3%;
 }
 .nav{
   margin-top: 6.2%;
@@ -24,26 +28,28 @@ html, body{
 }
 li{
   margin-right: 10px;
-  font-size: 120%;
+  font-size: 1vh;
+  position: relative;
 }
 h1{
-  margin-left: 4%;
-  margin-top: 5.5%;
-  font-size: 410%;
+  margin-left: 5%;
+  font-size: 6vh;
   color: rgb(108, 109, 111);
+  padding-top: 6%;
+  font-weight: lighter;
 }
 .divider{
   margin: auto;
-  margin-top: 4%;
-  width: 870px;
-  height: 10px;
+  width: 90%;
+  height: 1.5%;
   background-image: url("../img/divider.png");
+  margin-top: -2%;
 }
 .pic{
-  margin-left: 4%;
+  margin-left: 5%;
   margin-top: 5%;
-  width: 250px;
-  height: 300px;
+  width: 25%;
+  height: 42%;
   box-shadow:  0 2px 7px rgba(0, 0, 0, 0.12), 0 2px 5px rgba(0, 0, 0, 0.24);
 }
 img{
@@ -51,19 +57,24 @@ img{
   height:100%;
 }
 .textcontainer{
-  margin-top: -34%;
-  margin-left: 38%;
+  margin-left: 37%;
   color: rgb(108, 109, 111);
+  float: left;
+  margin-top: -33.5%;
+  width: 59%;
 }
 h4{
-  line-height: 40px;
+  font-size: 2vh;
+  font-weight: lighter;
 }
 p{
-  font-size: 110%;
+  font-size: 1.6vh;
+  padding-top: -1%;
+
 }
 .logoscontainer{
-  width: 550px;
-  height: 100;
+  width: 50%;
+  height: 15%;
   margin-left: 38%;
 }
 .con1{
