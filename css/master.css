@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+html, body{
+  background-image: url("../img/page-bg.jpg");
+  height: 100%; width: 100%;
+  font-family: 'Bree Serif', serif;
+
+}
+.navbar {
+  margin: auto;
+  width: 970px;
+  height: 110px;
+  border-radius: 0;
+  border: 0;
+}
+.container {
+  margin: auto;
+  width: 970px;
+  height: 700px;
+  background-image: url("../img/body-bg.png");
+}
+.nav{
+  margin-top: 6.2%;
+  margin-left: 54%;
+}
+li{
+  margin-right: 10px;
+  font-size: 120%;
+}
+h1{
+  margin-left: 4%;
+  margin-top: 5.5%;
+  font-size: 410%;
+  color: rgb(108, 109, 111);
+}
+.divider{
+  margin: auto;
+  margin-top: 4%;
+  width: 870px;
+  height: 10px;
+  background-image: url("../img/divider.png");
+}
+.pic{
+  margin-left: 4%;
+  margin-top: 5%;
+  width: 250px;
+  height: 300px;
+  box-shadow:  0 2px 7px rgba(0, 0, 0, 0.12), 0 2px 5px rgba(0, 0, 0, 0.24);
+}
+img{
+  width: 100%;
+  height:100%;
+}
+.textcontainer{
+  margin-top: -34%;
+  margin-left: 38%;
+  color: rgb(108, 109, 111);
+}
+h4{
+  line-height: 40px;
+}
+p{
+  font-size: 110%;
+}
+.logoscontainer{
+  width: 550px;
+  height: 100;
+  margin-left: 38%;
+}
+.con1{
+  height: 100px;
+  width: 100px;
+}
+.con2{
+  height: 100px;
+  width: 100px;
+  margin-left: 21%;
+  margin-top: -18.2%;
+}
+.con3{
+  height: 90px;
+  width: 90px;
+  margin-left: 41%;
+  margin-top: -17%;
+}
+
+.con4{
+  height: 90px;
+  width: 65px;
+  margin-left: 65%;
+  margin-top: -16.5%;
+}
+.con5{
+  height: 95px;
+  width: 95px;
+  margin-left: 83%;
+  margin-top: -17%;
+}
