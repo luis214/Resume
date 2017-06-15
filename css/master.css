@@ -26,10 +26,20 @@ html, body{
   margin-top: 6.2%;
   margin-left: 54%;
 }
+.conli{
+  padding-top: 5%;
+  margin-bottom: 50%;
+}
+ul{
+  margin-left: 53%;
+    font-size: 2vh;
+  display: inline;
+}
 li{
   margin-right: 10px;
-  font-size: 1vh;
+  font-size: 2vh;
   position: relative;
+  display:inline;
 }
 h1{
   margin-left: 5%;
