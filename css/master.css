@@ -61,6 +61,25 @@ h4{
 p{
   font-size: 110%;
 }
+.projectbox{
+  margin-top: -100px;
+  margin-left:-170px;
+  width: 870px;
+  height: 500px;
+}
+
+iframe{
+ width: 1280px;
+ height: 730px;
+ /* apply the transform */
+  -webkit-transform:scale(0.68);
+  -moz-transform:scale(0.68);
+  -o-transform:scale(.68);
+  transform:scale(.68);
+  /* position it, as if it was the original size */
+  position: absolute;
+
+}
 .logoscontainer{
   width: 550px;
   height: 100;
