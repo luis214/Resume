@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/master.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <nav class="navbar navbar-inverse">
-      <ul class="nav navbar-nav">
-      <li class="active"><a href="#">About</a></li>
-      <li><a href="./html/experience.html">Experience</a></li>
-      <li><a href="./html/Projects.html">Projects</a></li>
-      <li><a href="#">Contact</a></li>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/master.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./javascript/state.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <ul class="nav navbar-nav">
+      <li id="about" class="active"><a href="#">About</a></li>
+      <li id="experience"><a href="#">Experience</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li id="carbon"><a href="#">Carbon Clicker</a></li>
+          <li id="sus"><a href="#">Sustain It</a></li>
+          <li id="cc"><a href="#">First&Follow (C/C++)</a></li>
+        </ul>
+      </li>
+      <li id="contact"><a href="#">Contact</a></li>
     </ul>
-    </nav>
-    <div class="container">
+  </nav>
+  <div class="container">
+    <div id="wrapper" style="display: block">
       <h1>About</h1>
       <div class="divider">
       </div>
@@ -27,28 +39,59 @@
       </div>
       <div class="textcontainer">
         <h4> My name what is Luis Carbajal, and I aspire to be a software developer.</h4>
-        <p> Dynamic, and goal oriented professional with knowledge in algorithms, programming, and
-          software development models. I am an adaptable and determined individual, always willing
-          to improve my technical knowledge, and learn new skills.
+        <p> Dynamic, and goal oriented professional with knowledge in algorithms, programming, and software development models. I am an adaptable and determined individual, always willing to improve my technical knowledge, and learn new skills.
         </p> <br><br><br><br>
       </div>
       <div class="logoscontainer">
-          <div class="con1">
-            <img src="./img/c--logo-icon-0.png" alt="c++logo">
-          </div>
-          <div class="con2">
-            <img src="./img/java_logo.png" alt="javalogo">
-          </div>
-          <div class="con3">
-            <img src="./img/HTML5_Logo_512.png" alt="">
-          </div>
-          <div class="con4">
-            <img src="./img/css3.png" alt="">
-          </div>
-          <div class="con5">
-            <img src="./img/Javascript-shield.png" alt="">
-          </div>
+        <div class="con1">
+          <img src="./img/c--logo-icon-0.png" alt="c++logo">
+        </div>
+        <div class="con2">
+          <img src="./img/java_logo.png" alt="javalogo">
+        </div>
+        <div class="con3">
+          <img src="./img/HTML5_Logo_512.png" alt="">
+        </div>
+        <div class="con4">
+          <img src="./img/css3.png" alt="">
+        </div>
+        <div class="con5">
+          <img src="./img/Javascript-shield.png" alt="">
+        </div>
       </div>
     </div>
-  </body>
+    <div id="wrapper2">
+      <div id="cb" style="display: none">
+        <h1>Carbon Clicker</h1>
+        <div class="divider">
+        </div>
+      <div class="projectbox">
+          <iframe frameborder="0" scrolling="no" src="https://gios-asu.github.io/sustainability-clicker/"></iframe>
+        </div>
+      </div>
+      <div id="si" style="display: none">
+        <h1>Sustain It</h1>
+        <div class="divider">
+        </div>
+      <div class="projectbox">
+          <iframe frameborder="0" scrolling="no" src="https://gios-asu.github.io/sustainability-tower-defense/"></iframe>
+        </div>
+      </div>
+      <div id="cpp" class="pdfile" style="display: none">
+        <embed src="./img/code.pdf" width="800px" height="2100px" />
+      </div>
+    </div>
+    <div id="wrapper3" style="display: none">
+      <h1>Experience</h1>
+      <div class="divider">
+      </div>
+    </div>
+    <div id="wrapper4" style="display: none">
+      <h1>Contact</h1>
+      <div class="divider">
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
