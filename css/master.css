@@ -84,6 +84,7 @@ iframe{
   width: 550px;
   height: 100;
   margin-left: 38%;
+  margin-top: -3.5%;
 }
 .con1{
   height: 100px;
@@ -117,5 +118,13 @@ iframe{
   height: 95px;
   width: 95px;
   margin-left: 83%;
-  margin-top: -17%;
+  margin-top: -17%;}
+h2{
+    line-height: 20px;
+}
+.tcont{
+  color: rgb(108, 109, 111);
+  margin-top: 4%;
+  margin-left: 4%;
+}
 }
