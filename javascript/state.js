@@ -39,6 +39,7 @@ $(document).ready(function(){
       document.getElementById("wrapper4").style.display = "none";
       document.getElementById("cpp").style.display = "none";
       $(".nav").find(".active").removeClass("active");
+	   document.getElementById("res").style.display = "block";
       $("#experience").addClass("active");
   });
   $('#contact').click(function(){
