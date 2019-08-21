@@ -10,6 +10,7 @@ $(document).ready(function(){
       document.getElementById("cpp").style.display = "none";
 	    document.getElementById("baer").style.display = "none";
 		  document.getElementById("res").style.display = "block";
+		   document.getElementById("perr").style.display = "none";
       $(".nav").find(".active").removeClass("active");
       $("#about").addClass("active");
   });
@@ -22,6 +23,7 @@ $(document).ready(function(){
       document.getElementById("cpp").style.display = "none";
 	    document.getElementById("baer").style.display = "none";
 		  document.getElementById("res").style.display = "block";
+		   document.getElementById("perr").style.display = "none";
       $(".nav").find(".active").removeClass("active");
       $("#project").addClass("active");
   });
@@ -34,6 +36,7 @@ $(document).ready(function(){
       document.getElementById("cpp").style.display = "none";
 	    document.getElementById("baer").style.display = "none";
 		  document.getElementById("res").style.display = "block";
+		   document.getElementById("perr").style.display = "none";
       $(".nav").find(".active").removeClass("active");
       $("#project").addClass("active");
   });
@@ -59,6 +62,7 @@ $(document).ready(function(){
       document.getElementById("cpp").style.display = "none";
 	  document.getElementById("baer").style.display = "block";
 	     document.getElementById("perr").style.display = "none";
+		  document.getElementById("res").style.display = "block";
       $(".nav").find(".active").removeClass("active");
      // $("#project").addClass("active");
   });
@@ -71,6 +75,7 @@ $(document).ready(function(){
       document.getElementById("cpp").style.display = "none";
 	  document.getElementById("baer").style.display = "none";
 	   document.getElementById("perr").style.display = "block";
+	    document.getElementById("res").style.display = "block";
       $(".nav").find(".active").removeClass("active");
      // $("#project").addClass("active");
   });
@@ -83,6 +88,7 @@ $(document).ready(function(){
 	    document.getElementById("baer").style.display = "none";
       document.getElementById("cpp").style.display = "block";
 	   document.getElementById("perr").style.display = "none";
+	    document.getElementById("res").style.display = "block";
       $(".nav").find(".active").removeClass("active");
       $("#project").addClass("active");
   });
